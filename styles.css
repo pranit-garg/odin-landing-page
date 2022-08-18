@@ -68,3 +68,48 @@ body {
 .right-hero {
 
 }
+
+.some-random-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0 60px 0;
+}
+
+.random-images-and-text {
+    display: flex;
+    gap: 20px;
+}
+
+.random-imgs {
+    height: 30vh;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-txt {
+    flex-wrap: wrap;
+}
+
+.random-txt {
+    text-align: center;
+}
+
+.random-title {
+    margin-bottom: 40px;
+}
+
+.quote {
+    background-color: rgb(202, 202, 202);
+    padding: 40px 20%;
+}
+
+.quote-txt {
+   font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: 600;
+}
